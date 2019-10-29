@@ -30,5 +30,5 @@ func main() {
 	// Setup route group for the user
 	routes.User(router.Group("/user"))
 
-	router.Run(":3000")
+	router.Run(":5000")
 }
