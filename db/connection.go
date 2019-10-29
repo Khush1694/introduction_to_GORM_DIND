@@ -10,7 +10,7 @@ import (
 	_ "github.com/joho/godotenv/autoload"     // auto env variables import
 )
 
-// GetConnection returns the database connection
+// GetConnection returns the db connection
 func GetConnection() (db *gorm.DB) {
 	// Set the database connection
 	db, err := gorm.Open("mysql",
