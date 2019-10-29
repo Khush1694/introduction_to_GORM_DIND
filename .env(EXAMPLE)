@@ -1,0 +1,5 @@
+# You need to change the under example with you real credentials 
+# and rename this file to .env to work fine
+DB_USER=MY_DB_USER
+DB_PASS=MY_PASSWORD
+DB_NAME=MY_DB_NAME
